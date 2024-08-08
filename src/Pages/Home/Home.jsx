@@ -22,13 +22,13 @@ const Home = () => {
           change and resilience. Explore engaging stories, interactive learning,
           and real-world data to build a better future.
         </p>
-        <Link
+        {/* <Link
           to="/about"
           target="_blank"
           className="mt-6 px-6 py-3 bg-blue-900 text-white rounded-lg shadow-lg hover:bg-blue-700"
         >
           Learn More
-        </Link>
+        </Link> */}
       </section>
     </main>
   );
