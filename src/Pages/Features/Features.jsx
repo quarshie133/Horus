@@ -5,14 +5,14 @@ import GameApp from "../../assets/game app.png";
 const Features = () => {
   return (
     <main className="flex-grow container mx-auto px-4 py-8">
-      <section className="my-8 flex items-center justify-between text-center">
+      <section className="my-8 flex flex-col md:flex-row items-center justify-between text-center">
         <img
           src={climateImg}
           alt="Climate Resilience"
-          className="w-full max-w-xs h-auto"
+          className="w-full max-w-xs h-auto mb-8 md:mb-0 md:max-w-sm"
         />
         <div className="flex-1 px-8">
-          <h2 className="text-4xl font-semibold text-blue-900">Features of Horus</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-blue-900">Features of Horus</h2>
           <p className="mt-4 text-gray-700">
             Horus offers a range of features designed to engage and educate players about climate resilience.
           </p>
@@ -38,7 +38,7 @@ const Features = () => {
         <img
           src={GameApp}
           alt="Climate Game App"
-          className="w-full max-w-xs h-auto"
+          className="w-full max-w-xs h-auto mt-8 md:mt-0 md:max-w-sm"
         />
       </section>
     </main>
