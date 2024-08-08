@@ -1,5 +1,7 @@
 import React from "react";
-import heroVideo from "../../assets/hero-video.mp4"
+import heroVideo from "../../assets/hero-video.mp4";
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -20,9 +22,13 @@ const Home = () => {
           change and resilience. Explore engaging stories, interactive learning,
           and real-world data to build a better future.
         </p>
-        <a href="/about" target="_blank" className="mt-6 px-6 py-3 bg-blue-900 text-white rounded-lg shadow-lg hover:bg-blue-700">
+        <Link
+          to="/about"
+          target="_blank"
+          className="mt-6 px-6 py-3 bg-blue-900 text-white rounded-lg shadow-lg hover:bg-blue-700"
+        >
           Learn More
-        </a>
+        </Link>
       </section>
     </main>
   );
